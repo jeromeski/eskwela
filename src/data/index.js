@@ -1,0 +1,222 @@
+const authors = [
+	{
+		id: 1,
+		author: "Malynda Badwick",
+		email: "mbadwick0@netvibes.com",
+		gender: "Female",
+		avatar: "https://robohash.org/odiovoluptastempora.png?size=50x50&set=set1",
+		courseCount: 7,
+		imgAlt: "instructor aliquam",
+		studentAnroll: 194,
+		degi: "Occupational Therapist"
+	},
+	{
+		id: 2,
+		author: "Hayden Millyard",
+		email: "hmillyard1@mysql.com",
+		gender: "Male",
+		avatar: "https://robohash.org/optiorepudiandaeipsum.png?size=50x50&set=set1",
+		courseCount: 10,
+		imgAlt: "instructor non",
+		studentAnroll: 190,
+		degi: "Director of Sales"
+	},
+	{
+		id: 3,
+		author: "Hendrik Campos",
+		email: "hcampos2@cyberchimps.com",
+		gender: "Male",
+		avatar: "https://robohash.org/velitsitdolorem.png?size=50x50&set=set1",
+		courseCount: 5,
+		imgAlt: "instructor id sapien",
+		studentAnroll: 181,
+		degi: "Payment Adjustment Coordinator"
+	},
+	{
+		id: 4,
+		author: "Dale Munroe",
+		email: "dmunroe3@omniture.com",
+		gender: "Polygender",
+		avatar: "https://robohash.org/sequiquiquae.png?size=50x50&set=set1",
+		courseCount: 6,
+		imgAlt: "instructor sit",
+		studentAnroll: 62,
+		degi: "Information Systems Manager"
+	},
+	{
+		id: 5,
+		author: "Kelsi Lacer",
+		email: "klacer4@biblegateway.com",
+		gender: "Female",
+		avatar: "https://robohash.org/voluptatumenimipsam.png?size=50x50&set=set1",
+		courseCount: 7,
+		imgAlt: "instructor convallis eget",
+		studentAnroll: 164,
+		degi: "Financial Analyst"
+	},
+	{
+		id: 6,
+		author: "Mechelle Rainsbury",
+		email: "mrainsbury5@umn.edu",
+		gender: "Female",
+		avatar: "https://robohash.org/nesciuntdolorumquibusdam.png?size=50x50&set=set1",
+		courseCount: 1,
+		imgAlt: "instructor phasellus",
+		studentAnroll: 59,
+		degi: "Administrative Officer"
+	},
+	{
+		id: 7,
+		author: "Claudette Wadsworth",
+		email: "cwadsworth6@issuu.com",
+		gender: "Bigender",
+		avatar: "https://robohash.org/nihilnonnecessitatibus.png?size=50x50&set=set1",
+		courseCount: 7,
+		imgAlt: "instructor tellus nisi",
+		studentAnroll: 195,
+		degi: "Computer Systems Analyst II"
+	},
+	{
+		id: 8,
+		author: "Adriano Birds",
+		email: "abirds7@newsvine.com",
+		gender: "Male",
+		avatar: "https://robohash.org/doloresquoaut.png?size=50x50&set=set1",
+		courseCount: 2,
+		imgAlt: "instructor quis",
+		studentAnroll: 57,
+		degi: "Account Coordinator"
+	},
+	{
+		id: 9,
+		author: "Sibby Winborn",
+		email: "swinborn8@tumblr.com",
+		gender: "Bigender",
+		avatar: "https://robohash.org/estvoluptatemquod.png?size=50x50&set=set1",
+		courseCount: 5,
+		imgAlt: "instructor volutpat quam",
+		studentAnroll: 181,
+		degi: "Engineer III"
+	},
+	{
+		id: 10,
+		author: "Kassandra Herreros",
+		email: "kherreros9@businessinsider.com",
+		gender: "Non-binary",
+		avatar: "https://robohash.org/repellatimpeditomnis.png?size=50x50&set=set1",
+		courseCount: 1,
+		imgAlt: "instructor ut volutpat",
+		studentAnroll: 134,
+		degi: "Research Associate"
+	},
+	{
+		id: 11,
+		author: "Gena Law",
+		email: "glawa@macromedia.com",
+		gender: "Agender",
+		avatar: "https://robohash.org/molestiasautquisquam.png?size=50x50&set=set1",
+		courseCount: 9,
+		imgAlt: "instructor tortor id",
+		studentAnroll: 145,
+		degi: "Quality Engineer"
+	},
+	{
+		id: 12,
+		author: "Giacomo Sorel",
+		email: "gsorelb@comcast.net",
+		gender: "Polygender",
+		avatar: "https://robohash.org/modiquiautem.png?size=50x50&set=set1",
+		courseCount: 5,
+		imgAlt: "instructor platea dictumst",
+		studentAnroll: 126,
+		degi: "Web Designer II"
+	},
+	{
+		id: 13,
+		author: "Marcello Benkin",
+		email: "mbenkinc@facebook.com",
+		gender: "Male",
+		avatar: "https://robohash.org/corporisquiabeatae.png?size=50x50&set=set1",
+		courseCount: 5,
+		imgAlt: "instructor lorem vitae",
+		studentAnroll: 64,
+		degi: "Nurse"
+	},
+	{
+		id: 14,
+		author: "Fairfax Sharrocks",
+		email: "fsharrocksd@squarespace.com",
+		gender: "Male",
+		avatar: "https://robohash.org/doloresmolestiasnostrum.png?size=50x50&set=set1",
+		courseCount: 10,
+		imgAlt: "instructor volutpat",
+		studentAnroll: 115,
+		degi: "Graphic Designer"
+	},
+	{
+		id: 15,
+		author: "Irma Pottiphar",
+		email: "ipottiphare@macromedia.com",
+		gender: "Female",
+		avatar: "https://robohash.org/nihilliberoreiciendis.png?size=50x50&set=set1",
+		courseCount: 1,
+		imgAlt: "instructor turpis",
+		studentAnroll: 135,
+		degi: "Senior Developer"
+	},
+	{
+		id: 16,
+		author: "Minnie Staniford",
+		email: "mstanifordf@adobe.com",
+		gender: "Female",
+		avatar: "https://robohash.org/utporroconsequatur.png?size=50x50&set=set1",
+		courseCount: 8,
+		imgAlt: "instructor vestibulum",
+		studentAnroll: 79,
+		degi: "VP Quality Control"
+	},
+	{
+		id: 17,
+		author: "Caren Edeson",
+		email: "cedesong@yellowpages.com",
+		gender: "Female",
+		avatar: "https://robohash.org/corporisillumassumenda.png?size=50x50&set=set1",
+		courseCount: 1,
+		imgAlt: "instructor ipsum",
+		studentAnroll: 105,
+		degi: "Structural Analysis Engineer"
+	},
+	{
+		id: 18,
+		author: "Janeczka Coit",
+		email: "jcoith@elpais.com",
+		gender: "Female",
+		avatar: "https://robohash.org/eosaliquidquia.png?size=50x50&set=set1",
+		courseCount: 7,
+		imgAlt: "instructor felis fusce",
+		studentAnroll: 52,
+		degi: "Pharmacist"
+	},
+	{
+		id: 19,
+		author: "Mandi Pelcheur",
+		email: "mpelcheuri@tamu.edu",
+		gender: "Female",
+		avatar: "https://robohash.org/doloresdoloremet.png?size=50x50&set=set1",
+		courseCount: 7,
+		imgAlt: "instructor habitasse",
+		studentAnroll: 60,
+		degi: "Software Engineer III"
+	},
+	{
+		id: 20,
+		author: "Nanon Ernshaw",
+		email: "nernshawj@flavors.me",
+		gender: "Female",
+		avatar: "https://robohash.org/voluptasnequefugiat.png?size=50x50&set=set1",
+		courseCount: 8,
+		imgAlt: "instructor enim in",
+		studentAnroll: 147,
+		degi: "Nurse"
+	}
+];
